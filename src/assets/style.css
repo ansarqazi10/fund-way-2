@@ -1,0 +1,440 @@
+body {
+    overflow-x: hidden;
+    background-image: url("../assets/images/SVGs/Background.svg");
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.container-fluid {
+    min-height: calc(100vh - 34px);
+}
+
+/* home */
+.row2 {
+    background-color: #FFC7AE;
+    height: 130px;
+}
+.boxUp {
+    width: 90%;
+    margin: -5% 5% 0 5%;
+    border-radius: 5px;
+    padding: 15px 55px 15px 0;
+    max-height: 180px;
+}
+.boxUp .col-4 {
+    flex: 1 0 21%;
+    margin: 5px;
+    height: 100px;
+}
+.target {
+    position: relative;
+    top:0;
+    right: 0;
+    left: 75%;
+    margin-bottom: 80px;
+    background-color: #F2902F;
+    color: #521D1B;
+    width: 310px;
+    height: 39px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+.projects {
+    padding-left: 10%;
+}
+.searchbar {
+    background-color: transparent;
+    border: 1px solid #F2902F;
+    width: 90%;
+    margin: 0 0 3% 0;
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 20px;
+}
+
+/* header */
+.header {
+    padding-right: 50px;
+}
+
+.header .nav-link {
+    color: white;
+    margin: 5px 10px;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.fa {
+    margin-right: 8px;
+}
+
+.header .btn {
+    border-radius: 60px;
+    height: 50px;
+    padding: 8px 18px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btnRed,
+.btnRed:hover {
+    background-color: #C32F34;
+    color: white;
+    width: 152px;
+}
+
+.btnYellow,
+.btnYellow:hover {
+    background-color: #F2902F;
+    color: black;
+    width: 125px;
+}
+
+/* login signup */
+.login {
+    text-align: center;
+}
+.login form label {
+    font-weight: 700;
+    font-size: 40px;
+}
+.form-check-input {
+    margin-top: 16px;
+    width: 29px;
+    height: 29px;
+}
+input:checked ~ .checkmark {
+    background-color: #521D1B;
+  }
+.box {
+    text-align: left;
+    background-color: #F2902F;
+    border-radius: 10px;
+    width: 40%;
+    margin: 2% 30% 0 30%;
+    padding: 20px;
+}
+.boxR {
+    margin-left: 24%;
+    position: relative;
+    height: 650px;
+    width: 800px;
+    height: 986px;
+}
+/* list-a-project */
+.boxL {
+    margin-left: 25%;
+    position: relative;
+    width: 800px;
+}
+
+.input {
+    font-weight: bold;
+    font-size: 20px;
+    height: 59px;
+    width: 650px;
+    border-radius: 30px;
+}
+
+.form-control {
+    border-radius: 50px;
+}
+
+.submit,
+.submit:hover,
+.submit:active {
+    border-radius: 40px;
+    background-color: #F2902F;
+    color: white;
+    font-weight: bold;
+    width: 358px;
+    height: 80px;
+    margin: 2% 38% 0 38%;
+    font-size: 35px;
+}
+
+.fp {
+    text-decoration: none;
+}
+
+/* terms */
+.terms {
+    background-color: #54489B;
+    margin: 0 4%;
+    padding: 2%;
+    border-radius: 12px;
+    z-index: 9999;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.terms li {
+    margin-top: 20px;
+}
+
+/* tips-and-tools */
+.tip {
+    padding: 5%;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+/* about */
+.aboutTxt {
+    padding: 45px;  
+    font-weight: 200;
+    font-size: 36px;
+}
+
+/* developers */
+.developers {
+    text-align: center;
+}
+
+.devImg {
+    margin: 0 3% 0 3%
+}
+
+/* portal */
+.portal .user {
+    background-color: #F2902F;
+    border-radius: 30px;
+    height: 148px;
+    width: 90%;
+    margin: 5%;
+}
+
+.userImg {
+    background-color: #ccc;
+    margin: 5px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 28px 0 0 28px;
+    width: 92px;
+    height: 92px;
+}
+
+.portal .user .info {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: left;
+    padding: 40px 0;
+}
+
+.btns {
+    text-align: right;
+    padding-right: 45px;
+}
+
+.btnWhite {
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    height: 43px;
+    margin: 50px 15px;
+}
+
+.bW1 {
+    width: 229px
+}
+
+.bW2 {
+    width: 158px
+}
+
+.userProjects {
+    background-color: #F2902F;
+    padding: 4% 2%;
+    margin: 0 5%;
+    width: 90%;
+    border-radius: 30px;
+}
+.homeProjects {
+    padding: 4% 0;
+    margin: 0 5%;
+    width: 90%;
+    border-radius: 30px;
+}
+
+.btnCardB,
+.btnCardB:hover,
+.btnCardB:active {
+    border-radius: 60px;
+    background-color: #F2902F;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 30px;
+    width: 498px;
+    margin: 0 5% 5% 5%;
+}
+
+.btnProject {
+    border-radius: 60px;
+    background-color: #F2902F;
+    color: white;
+    width: 398px;
+}
+
+/* card */
+.card {
+    background-color: #A32327;
+    text-align: left;
+    border-radius: 40px;
+    width: 517px;
+    /* height: 852px; */
+    margin: 0 auto;
+}
+
+.cardImg {
+    border-radius: 30px;
+    margin: 18px;
+    height: 321px;
+    width: 459px;
+}
+
+.card-title {
+    font-weight: 400;
+    font-size: 40px;
+}
+.progress-text .end {
+    float: right
+}
+
+.btnCard, .btnCard:hover, .btnCard:active {
+    float: center;
+    border-radius: 40px;
+    background-color: #F2902F;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 8px;
+    width: 261px;
+    height: 58px;
+    margin: 20% 0 2% 20%;
+}
+
+/* ways-to-fundraise */
+.waysToFundraise h2,
+.waysToFundraise p {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.waysToFundraise h2 {
+    padding: 45px 0 15px 45px
+}
+
+.waysToFundraise p {
+    padding-left: 45px
+}
+
+.wtfImage {
+    float: right;
+    margin: -100px 40px 0 0;
+}
+
+.wtfImage2 {
+    margin: 10px 0 0 6%;
+}
+
+/* footer */
+.footer {
+    background-color: #F2902F;
+    padding: 2% 4%;
+    width: 102%;
+    text-align: center;
+    margin-top: 15%;
+    z-index: -1;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin: 5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer ul a,
+.footer p,
+.footer p a {
+    color: white;
+}
+
+.footer-icon {
+    margin: 0 5px 10px 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer .social {
+    text-align: center;
+}
+
+/* general */
+h1 {
+    font-weight: 700;
+    font-size: 64px
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 48px
+}
+
+.red {
+    color: #521D1B
+}
+
+.yellow {
+    color: #F2902F
+}
+
+.white {
+    color: white
+}
+
+.bold {
+    font-weight: bold
+}
+
+.bold18 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bold24 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.link,
+.link:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.linkB,
+.linkB:hover {
+    color: black
+}
+
+.text {
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
